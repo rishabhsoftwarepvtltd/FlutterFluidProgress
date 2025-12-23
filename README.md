@@ -14,9 +14,7 @@ Beautiful fluid progress indicators for Flutter with customizable wave animation
 <img src="screenshots/demo.png" width="200" height="480">
 
 ### Video Demo
-<video src="screenshots/demo_screen_recording.mov" width="200" controls autoplay loop muted>
-  Your browser does not support the video tag.
-</video>
+<img src="screenshots/demo_screen_recording.gif" width="200">
 
 ## Getting Started with testing
 
