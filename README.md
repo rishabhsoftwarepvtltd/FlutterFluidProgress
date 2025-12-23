@@ -72,13 +72,14 @@ fluid_progress_indicator/
 ```
 
 ## Platform support & Requirements
-Platform	Support	Notes
-- **Android**	✅	SDK 21+ (minSdk 21). Your table lists “SDK 16+”; recommend 21+ for modern Flutter.
-- **iOS**	✅	iOS 12+
-- **Web**	✅	CanvasKit recommended for best quality
-- **macOS**	✅	10.14+
-- **Windows**	✅	Windows 10+
-- **Linux**	✅	Any modern distro supported by Flutter
+| Platform | Support | Notes |
+|----------|---------|-------|
+| Android | ✅ | SDK 21+ |
+| iOS | ✅ | iOS 12+ |
+| Web | ✅ | CanvasKit recommended |
+| macOS | ✅ | 10.14+ |
+| Windows | ✅ | Windows 10+ |
+| Linux | ✅ | Modern distros |
 
 Requirements
 * Flutter ≥ 3.19.0
