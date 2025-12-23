@@ -8,8 +8,15 @@
 
 Beautiful fluid progress indicators for Flutter with customizable wave animations, gradients, rounded corners, and smooth fill transitions. Accessible and performant.
 
-## Demo screenshot
+## Demo
+
+### Screenshot
 <img src="screenshots/demo.png" width="200" height="480">
+
+### Video Demo
+<video src="screenshots/demo_screen_recording.mov" width="200" controls autoplay loop muted>
+  Your browser does not support the video tag.
+</video>
 
 ## Getting Started with testing
 
