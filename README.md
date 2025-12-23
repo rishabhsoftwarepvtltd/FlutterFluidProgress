@@ -102,10 +102,21 @@ Permissions
 
 ### Quick Start
 
-Add to your `pubspec.yaml`:
+Install the package:
+
+```bash
+flutter pub add fluid_progress_indicator
+```
+
+Or add it manually to your `pubspec.yaml`:
 ```yaml
 dependencies:
   fluid_progress_indicator: ^0.0.1
+```
+
+Then run:
+```bash
+flutter pub get
 ```
 
 Import and use:
