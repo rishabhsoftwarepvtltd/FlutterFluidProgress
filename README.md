@@ -259,6 +259,12 @@ Run:
 
 flutter run example/lib/main.dart
 
+### Common Use Cases
+- 📥 Download/upload progress
+- ⏱️ Timer visualization
+- 🎯 Goal tracking (fitness, savings, etc.)
+- 🔋 Battery level indicators
+- 💾 Storage usage displays
 
 ## Running Tests
 
