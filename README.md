@@ -9,31 +9,28 @@ Beautiful fluid progress indicators for Flutter with customizable wave animation
 1. Run `flutter pub get` to install the necessary dependencies
 2. Run `flutter test` to execute all tests
 
-Table of contents
-* Highlights / Features
-* Platform support & Requirements
-* Getting started
-* Setup (Android, iOS, Web, macOS, Windows, Linux)
-* Usage
-* Configuration
-    * Background configuration
-* Theming & accessibility
-* Advanced
-* Examples
-* API description
-* Limitations
-* Performance
-* FAQ / Troubleshooting
-* Migration guide
-* Roadmap
-* Contributing
-* User privacy notes
-* Security
-* Maintainers & acknowledgements
-* License
-* Changelog
+## Table of contents
+* [Highlights / Features](#highlights--features)
+* [Platform support & Requirements](#platform-support--requirements)
+* [Getting started](#getting-started)
+* [Setup (Android, iOS, Web, macOS, Windows, Linux)](#setup-android-ios-web-macos-windows-linux)
+* [Usage](#usage)
+* [Configuration](#configuration)
+    * [Background configuration](#background-configuration)
+* [Theming & accessibility](#theming--accessibility)
+* [Advanced](#advanced)
+* [Examples](#examples)
+* [API description](#api-description)
+* [Limitations](#limitations)
+* [Performance](#performance)
+* [FAQ / Troubleshooting](#faq--troubleshooting)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [User privacy notes](#user-privacy-notes)
+* [Author, Maintainers & Acknowledgements](#author-maintainers--acknowledgements)
+* [License](#license)
 
-Highlights / Features
+## Highlights / Features
 * 💧 Fluid / liquid fill animation with configurable wave count & amplitude
 * 🎛️ Customizable: colors, gradients, borders (via background), rounded corners, text/child overlay
 * ♿ Accessible: supports semantics labels and value announcements
@@ -86,7 +83,7 @@ Permissions
 * INTERNET (only if you load network images in IndicatorBackgroundConfig.image).
 * No other permissions required.
 
-Getting started
+## Getting started
 1) Install
 ```
 dependencies:
@@ -99,12 +96,12 @@ flutter pub get
 ```
 import 'package:fluid_progress_indicator/fluid_progress_indicator.dart';
 ```
-Setup (Android, iOS, Web, macOS, Windows, Linux)
+## Setup (Android, iOS, Web, macOS, Windows, Linux)
 No special/native setup is required.For Web, best visual quality with:
 ```
 flutter run -d chrome --web-renderer canvaskit
 ```
-Usage
+## Usage
 Minimal
 ```
 FluidProgressIndicator(
@@ -182,7 +179,7 @@ const FluidProgressIndicator(
 ```
 ✅ The animationChildBuilder callback receives a normalized value 0.0..1.0 so your label can animate smoothly while the fluid fills.
 
-Configuration
+## Configuration
 
 | Property | Type | Default | Description |
 |----------|------|---------|-------------|
@@ -221,7 +218,7 @@ IndicatorBackgroundConfig(
   border: Border.all(color: Colors.white24, width: 1.5),
 )
 ```
-Theming & accessibility
+## Theming & accessibility
 * Respects ThemeData(useMaterial3: true) and color schemes out of the box.
 * You can pass high‑contrast fills and clear text colors for readability.
 * Add semantics around the widget if you need spoken progress updates:
@@ -232,12 +229,12 @@ Semantics(
   child: FluidProgressIndicator(...),
 )
 
-Advanced
+## Advanced
 * Wave detail: Tune noOfWaves and waveAmplitude for the desired look.
 * Animation: heightAnimationDuration controls how quickly the fill height catches up when progress changes.
 * Overlay animation: animationChildBuilder gets a normalized value in 0.0..1.0 to animate text/indicators in sync.
 
-Examples
+## Examples
 A runnable example is provided in example/ (the snippet below is the actual main.dart included in your package):
 
 MaterialApp(
@@ -255,7 +252,7 @@ flutter run example/lib/main.dart
 - To run a specific test file, use the command `flutter test <path/to/test_file.dart>`
 - To run a specific test within a file, use the command `flutter test <path/to/test_file.dart> --name=testName`
 
-API description
+## API description
 Public entrypoint
 ```
 import 'package:fluid_progress_indicator/fluid_progress_indicator.dart';
@@ -280,12 +277,12 @@ const IndicatorBackgroundConfig({
   this.border,
 });
 ```
-Limitations
+## Limitations
 * The widget does not fetch progress; you supply progress updates (e.g., from a download/upload).
 * Excessively large sizes combined with high wave counts may reduce performance on very low‑end devices.
 * For Web, CanvasKit renderer is recommended for best fidelity.
 
-Performance
+## Performance
 * Single CustomPainter pipeline; minimal layout churn.
 * Avoid rebuilding with every tick if progress has not changed.
 * In lists, consider wrapping items in RepaintBoundary.
