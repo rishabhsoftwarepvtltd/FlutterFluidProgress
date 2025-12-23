@@ -91,17 +91,24 @@ Permissions
 * No other permissions required.
 
 ## Getting started
-1) Install
-```
+
+### Quick Start
+
+Add to your `pubspec.yaml`:
+```yaml
 dependencies:
   fluid_progress_indicator: ^0.0.1
 ```
-```
-flutter pub get
-```
-2) Import
-```
+
+Import and use:
+```dart
 import 'package:fluid_progress_indicator/fluid_progress_indicator.dart';
+
+FluidProgressIndicator(
+  maxProgress: 100,
+  progress: 75,
+  fillColor: Colors.blue,
+)
 ```
 ## Setup (Android, iOS, Web, macOS, Windows, Linux)
 No special/native setup is required.For Web, best visual quality with:
