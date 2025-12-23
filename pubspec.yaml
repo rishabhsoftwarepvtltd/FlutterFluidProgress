@@ -1,0 +1,43 @@
+name: fluid_progress_indicator
+description: Beautiful fluid progress indicators for Flutter with customizable wave animations, gradients, rounded corners, and smooth fill transitions. Accessible and performant.
+version: 0.0.1
+homepage: https://github.com/rishabhsoftwarepvtltd/FlutterFluidProgress
+repository: https://github.com/rishabhsoftwarepvtltd/FlutterFluidProgress
+issue_tracker: https://github.com/rishabhsoftwarepvtltd/FlutterFluidProgress/issues
+license: MIT
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+platforms:
+  android:
+  ios:
+  web:
+  macos:
+  linux:
+  windows:
+
+topics:
+  - progress-indicator
+  - animation
+  - indicator
+  - fluid
+  - ui
+  - gradient
+  - performance
+
+screenshots:
+  - description: 'Fluid progress indicator demo'
+    path: screenshots/demo.png
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mocktail: ^1.0.4
+
+flutter:
