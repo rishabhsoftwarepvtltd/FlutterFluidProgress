@@ -258,7 +258,8 @@ class FluidProgressIndicator extends StatefulWidget {
   State<FluidProgressIndicator> createState() => _FluidProgressIndicatorState();
 }
 
-class _FluidProgressIndicatorState extends State<FluidProgressIndicator> with TickerProviderStateMixin {
+class _FluidProgressIndicatorState extends State<FluidProgressIndicator>
+    with TickerProviderStateMixin {
   // Fluid animation duration in milliseconds
   final Duration _kFluidAnimationDuration = const Duration(
     milliseconds: 4000,
@@ -329,7 +330,9 @@ class _FluidProgressIndicatorState extends State<FluidProgressIndicator> with Ti
             heightCurve: widget.heightCurve,
             waveAmplitude: widget.waveAmplitude,
             noOfWaves: widget.noOfWaves,
-            progress: (widget.maxProgress == 0) ? 0 : (widget.progress / widget.maxProgress),
+            progress: (widget.maxProgress == 0)
+                ? 0
+                : (widget.progress / widget.maxProgress),
           ),
           if (widget.animationChildBuilder != null) ...[
             Center(

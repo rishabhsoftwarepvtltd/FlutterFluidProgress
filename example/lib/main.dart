@@ -61,7 +61,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       animationChildBuilder: (context, value) {
                         return Text(
                           "${(value * 67).toInt().toString()} %",
-                          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineSmall
+                              ?.copyWith(
                                 color: Colors.white,
                               ),
                         );
@@ -108,7 +111,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             Text(
                               "${(value * 100).toInt().toString()} %",
-                              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(
                                     color: Colors.red,
                                   ),
                             )
@@ -133,7 +139,10 @@ class _MyHomePageState extends State<MyHomePage> {
                         const totalProgress = 100;
                         return Text(
                           "${(value * 80).toInt().toString()} / $totalProgress",
-                          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineSmall
+                              ?.copyWith(
                                 color: Colors.white,
                               ),
                         );

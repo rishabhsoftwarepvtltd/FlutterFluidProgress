@@ -122,8 +122,7 @@ class FluidWavePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint = Paint()
-      ..style = PaintingStyle.fill;
+    Paint paint = Paint()..style = PaintingStyle.fill;
 
     if (fillGradient != null) {
       paint.shader = fillGradient!.createShader(Rect.fromPoints(
