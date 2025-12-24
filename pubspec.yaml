@@ -23,8 +23,6 @@ topics:
   - indicator
   - fluid
   - ui
-  - gradient
-  - performance
 
 screenshots:
   - description: 'Fluid progress indicator demo'
