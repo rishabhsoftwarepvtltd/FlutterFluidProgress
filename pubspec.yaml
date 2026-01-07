@@ -1,10 +1,10 @@
 name: fluid_progress_indicator
 description: Beautiful fluid progress indicators for Flutter with customizable wave animations, gradients, rounded corners, and smooth fill transitions. Accessible and performant.
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/rishabhsoftwarepvtltd/FlutterFluidProgress
 repository: https://github.com/rishabhsoftwarepvtltd/FlutterFluidProgress
 issue_tracker: https://github.com/rishabhsoftwarepvtltd/FlutterFluidProgress/issues
-license: MIT
+license: LicenseRef-Rishabh-Software-Non-Commercial-1.0
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
