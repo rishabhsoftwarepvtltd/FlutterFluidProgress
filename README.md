@@ -1,7 +1,7 @@
 # Fluid Progress Indicator
 
 [![pub.dev](https://img.shields.io/pub/v/fluid_progress_indicator.svg)](https://pub.dev/packages/fluid_progress_indicator)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Rishabh Software](https://img.shields.io/badge/License-Rishabh%20Software-blue.svg)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?logo=Flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart&logoColor=white)](https://dart.dev)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)](https://flutter.dev/docs/development/platform-integration)
@@ -109,7 +109,7 @@ flutter pub add fluid_progress_indicator
 Or add it manually to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  fluid_progress_indicator: ^0.0.1
+  fluid_progress_indicator: ^1.0.0
 ```
 
 Then run:
@@ -350,23 +350,38 @@ Contributions welcome! Please read:
 - [CONTRIBUTING.md](CONTRIBUTING.md) – setup, branch strategy, commit convention
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
+Run checks before push:
+- `dart format .`
+- `flutter analyze`
+- `flutter test`
 
-dart format . --set-exit-if-changed
-flutter analyze
-flutter test --coverage
+## User Privacy Notes
 
-## User privacy notes
-This package does not collect or share any personal or sensitive user data.If you load network images for the background, your app will use the network as per your code; the package itself has no tracking.
-
+- This package does not collect any user information or share data with third-party services.
 
 ## Author, Maintainers & Acknowledgements
+
 - Developed by **[Rishabh Software](https://www.rishabhsoft.com/)**.
 - Thanks to the Flutter community for the amazing packages used in this project.
 
 ## License
 
-This package is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This package is licensed under the **Rishabh Software Source Available License (Non-Commercial) V.1**.
 
-## Made by RSPL Team
+- ✅ Free for personal projects, learning, academic purposes, and evaluation
+- ✅ You may modify and fork for non-commercial use
+- ❌ Commercial use requires a separate license
+
+For licensing inquiries, refer to [LICENSE](LICENSE) for contact details.
+
+## Made by Rishabh Software Team
 
 [Github](https://github.com/rishabhsoftwarepvtltd) • [Website](https://www.rishabhsoft.com/services/mobile-app-development)
+
+## Contact
+
+Have questions, suggestions, or feedback? We'd love to hear from you!
+
+📧 **Email**: [opensource@rishabhsoft.com](mailto:opensource@rishabhsoft.com)
+
+🌐 **Contact Us**: https://www.rishabhsoft.com/contact-us
